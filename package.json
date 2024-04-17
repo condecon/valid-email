@@ -5,15 +5,11 @@
   "author": "John Henry <john@iamjohnhenry.com>",
   "homepage": "https://github.com/johnhenry/valid-email",
   "license": "MIT",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git://github.com/johnhenry/valid-email.git"
+    "url": "git://github.com/condecon/valid-email.git"
   },
-  "files": [
-    "index.js",
-    "lib/"
-  ],
   "scripts": {},
   "keywords": [
     "valid",
@@ -21,8 +17,5 @@
     "test",
     "validity",
     "check"
-  ],
-  "engines": {
-    "node": ">=0.10.0"
-  }
+  ]
 }

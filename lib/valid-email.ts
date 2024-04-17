@@ -21,7 +21,7 @@
  * @return {Boolean}
  * @api public
  */
-module.exports = function valid(email) {
+export function valid_email(email):Boolean {
   if (!email) {
     return false; // email empty or undefined
   }

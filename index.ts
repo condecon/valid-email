@@ -1,0 +1,1 @@
+export {valid_email} from "./lib/valid-email";
