@@ -21,7 +21,7 @@
  * @return {Boolean}
  * @api public
  */
-export function valid_email(email):Boolean {
+export function valid_email(email:string):Boolean {
   if (!email) {
     return false; // email empty or undefined
   }

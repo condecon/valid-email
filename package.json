@@ -5,7 +5,7 @@
   "author": "John Henry <john@iamjohnhenry.com>",
   "homepage": "https://github.com/johnhenry/valid-email",
   "license": "MIT",
-  "main": "index.ts",
+  "main": "lib/valid-email.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/condecon/valid-email.git"
@@ -17,5 +17,8 @@
     "test",
     "validity",
     "check"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
